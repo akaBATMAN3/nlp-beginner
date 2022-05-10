@@ -68,7 +68,7 @@ class MovieDataset:
                 for word in words:
                     x[i][self.vocab[word]] = 1
         elif self.text_rpst == "ngram":
-            for n in range(1, self.gram_num):
+            for n in range(1, self.gram_num + 1):
                 for i in range(len(data)):
                     words = data[i][2].lower().split()
                     for j in range(len(words) - n + 1):

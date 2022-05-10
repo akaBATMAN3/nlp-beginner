@@ -192,7 +192,7 @@ def main(config):
     runner.logwriter.close()
 
 if __name__ == "__main__":
-    template = {
+    config = {
         "seed": 2022,
         "gpu": True,
         "proj_name": "nlp-beginner-task3",
@@ -222,4 +222,4 @@ if __name__ == "__main__":
         "patience": 10, # early stop
         "grad_clipping": 10
     }
-    main(template)
+    main(config)
