@@ -66,3 +66,12 @@ def f1_calc(y, pred):
         f1.append(f1_score(y[i], pred[i], average='macro'))
     
     return np.mean(f1)
+
+def cos_sim(v1, v2):
+    """
+    Calculate cosine similarity between vectors,
+    verified with sklearn.metrics.pairwise.cosine_similarity
+    """
+    num = float(np.dot(v1, v2))
+    denom = np.linalg.norm(v1) * np.linalg.norm(v2)
+    return (num / denom) if denom != 0 else 0
