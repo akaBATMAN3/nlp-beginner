@@ -1,23 +1,28 @@
 # NLP-Beginner
 
-Code repository for [nlp-beginner](https://github.com/FudanNLP/nlp-beginner).
+Code exercises for nlp beginners.
 
-## Feature
+| Task  |                         Description                          |                            Source                            |
+| :---: | :----------------------------------------------------------: | :----------------------------------------------------------: |
+| task1 |   [Text Classification based on Machine Learning](./task1)   |   [nlp-beginner](https://github.com/FudanNLP/nlp-beginner)   |
+| task2 |    [Text Classification based on Deep learning](./task2)     |   [nlp-beginner](https://github.com/FudanNLP/nlp-beginner)   |
+| task3 | [Natural Language Inference based on Attention Mechanism](./task3) |   [nlp-beginner](https://github.com/FudanNLP/nlp-beginner)   |
+| task4 |        [Sequence Labeling based on LSTM+CRF](./task4)        |   [nlp-beginner](https://github.com/FudanNLP/nlp-beginner)   |
+| task5 |      [Language Model based on Neural Network](./task5)       |   [nlp-beginner](https://github.com/FudanNLP/nlp-beginner)   |
+| task6 |          [Sentence Similarity Calculation](./task6)          | [NLPTry](https://github.com/LooperXX/NLPTry/tree/master/6%20-%20Semantic%20Textual%20Similarity) |
 
-- Finish all the tasks and run successfully in both local and Colab
-- With or without gpu is just fine
+To be continued...
+
+## Features
+
+- Every task has a **README.md** which tells the usage, and a **report.md** which tells the details of implementation
 - All tasks share the same highly structured code framework which is easier to learn
-- More details in **report.md（written in Chinese）**
-
-## How to run
-
-1. Open task/data(pretrained_emb)/README.md and download needed data into the directory
-2. Run task/main.py
-2. Check the results in task/out
+- All tasks have been tested successfully in both local and Colab
+- With or without gpu is just fine
 
 ## Dependency
 
-local：pytorch1.8.1
+Local：pytorch1.8.1
 
 Colab：pytorch1.11.0+cu113
 
