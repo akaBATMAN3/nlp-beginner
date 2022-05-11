@@ -28,6 +28,4 @@
 
 1. Check results in out directory
 
-1. More details in [report](./report)
-
-   
+1. More details in [report](./report.md)
